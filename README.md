@@ -82,7 +82,7 @@ A simple web frontend is available to predict car prices in real-time.
 
 To run the app locally:
 ```cmd
-streamlit run src/app.py
+python -m streamlit run src/app.py
 ```
 
 This will launch a web interface where you can input car details and get instant price predictions.
