@@ -4,6 +4,23 @@
 ## Overview
 This project predicts the selling price of used cars using Python and Machine Learning techniques. It utilizes a Random Forest Regressor model trained on historical car data to provide accurate price estimates based on features like year, present price, kilometers driven, fuel type, transmission, and seller type.
 
+## Project Structure
+```
+CarPricePrediction/
+├── data/
+│   └── car_data.csv                 # Dataset file
+├── notebooks/
+│   └── carpriceeda.ipynb            # Exploratory Data Analysis notebook
+├── src/
+│   ├── app.py                       # Streamlit web app for predictions
+│   ├── predict_model.py             # Script for individual predictions
+│   └── train_model.py               # Script for training the model
+├── .gitignore                       # Git ignore file
+├── CarPricePrediction_model.pkl     # Trained model file
+├── README.md                        # Project documentation
+└── requirements.txt                 # Python dependencies
+```
+
 ## Features
 - Data preprocessing with one-hot encoding for categorical variables
 - Model training using Random Forest Regressor
